@@ -1,3 +1,5 @@
+Oscar Saez Ortega, joachim Waeyaert
+
 const int piezoPin = A1;
 
 void setup() {
