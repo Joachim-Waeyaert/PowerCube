@@ -2,7 +2,7 @@ In deze test werd het piezo element op de seriële plotter weergegeven.
 De maximumwaarde (1023) werd bij weinig kracht al verkregen. Ook gaf hij na het bereiken van de maximumwaar een waarde van 0.
 Tussen de positieve kant van de piezo en de arduino werd een weerstand van 1M ohm geplaatst omdat het piezo element anders de arduino kan verbranden(ter veiligheid).
 
-**Code 
+Code
 
 const int piezoPin = A1;  // Analoge pin waar piezo op zit
 
