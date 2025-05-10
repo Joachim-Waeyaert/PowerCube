@@ -13,11 +13,11 @@ Het doel van het project is het bouwen van een boksmachine die twee zaken meet:
 
 -Hoe hard de vuist tegen het stootkussen slaat
 
-//schets toevoegen?
+`schets toevoegen?`
 
 ## Gebruikte materialen
 
-//afbeeldingen bijzetten?
+`afbeeldingen bijzetten`
 
 -Arduino Nano
 
@@ -33,14 +33,14 @@ Het doel van het project is het bouwen van een boksmachine die twee zaken meet:
 
 -Breadboard en bedrading
 
-//schema bedrading?
+`schema bedrading?`
 
 ## Werking
 
 ### Snelheid meten
 De IR-sensor wordt gericht met behulp van een WC-rol. Zo ziet de sensor enkel wat recht voor hem beweegt. Wanneer een vuist voorbij de sensor gaat, start een timer. Zodra de drukknop geraakt wordt, stopt de timer. Het verschil in tijd tussen die twee momenten en de afstand tussen de sensor en de drukknop worden gebruikt om de snelheid van de vuistslag te bepalen.
 
-//schets?
+`schets?`
 
 ### Kracht meten
 Achter de drukknop zit een piezosensor. Deze sensor geeft een spanningssignaal wanneer hij wordt geraakt. Hoe harder de stoot, hoe hoger het signaal. De Arduino leest deze waarde uit en zet het zo om in een getal dat iets zegt over de kracht van de slag.
