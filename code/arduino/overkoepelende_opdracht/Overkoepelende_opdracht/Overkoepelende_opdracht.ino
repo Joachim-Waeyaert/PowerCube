@@ -21,7 +21,7 @@ void setup() {
   lcd.setRGB(0, 255, 0);
   delay(3000);
 
-  lcd.print("U mag slaan!");
+  lcd.print("GOOOOOOO00000000");
   Serial.println("Systeem klaar: U mag slaan!");
   digitalWrite(piezobuzzPin, HIGH);
   delay(500); // korte piep van 1000 ms
@@ -41,7 +41,7 @@ void loop() {
       startTijd = millis();
       lcd.clear();
       lcd.setCursor(0, 0);
-      lcd.print("Berekenen...");
+      lcd.print("...");
       lcd.setRGB(255, 165, 0); // Oranje
     }
   }
@@ -72,7 +72,7 @@ void loop() {
       Serial.print("Max piezo kracht: ");
       Serial.println(maxPiezowaarde);
 
-      delay(1500);
+      delay(5000);
 
       // Reset voor volgende meting
       startTijd = 0;
