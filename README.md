@@ -18,6 +18,7 @@ Het doel van het project is het bouwen van een boksmachine die twee zaken meet:
 ## Gebruikte materialen
 
 //afbeeldingen bijzetten?
+
 -Arduino Nano
 
 -Infraroodsensor (voor snelheidsmeting)
@@ -36,7 +37,7 @@ Het doel van het project is het bouwen van een boksmachine die twee zaken meet:
 
 ## Werking
 
-***Snelheid meten
+### Snelheid meten
 De IR-sensor wordt gericht met behulp van een WC-rol. Zo ziet de sensor enkel wat recht voor hem beweegt. Wanneer een vuist voorbij de sensor gaat, start een timer. Zodra de drukknop geraakt wordt, stopt de timer. Het verschil in tijd tussen die twee momenten en de afstand tussen de sensor en de drukknop worden gebruikt om de snelheid van de vuistslag te bepalen.
 
 //schets?
