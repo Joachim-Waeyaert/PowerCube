@@ -1,17 +1,20 @@
-#include <LiquidCrystal_I2C.h>
 #include <Wire.h>
-//initialiseren van de display.
-//lcd(adress, lengte, breedte)
-LiquidCrystal_I2C lcd(0x3E, 16, 2);
-void setup() {
+#include "rgb_lcd.h"
 
-  lcd.init();           //initialiseren van de lcd
-  lcd.backlight();      //Zet backlight aan
-  lcd.print("PowerCube");       //Schrijf tekst
+rgb_lcd lcd;
+
+void setup() 
+{
+    // set up the LCD's number of columns and rows:
+    lcd.begin(16, 2);
+    lcd.print("Powercube");
+    delay(1000);
 }
-
-void loop() {
-//voor test niets nodig hier 
-
-
+void loop() 
+{
+    // set the cursor to column 0, line 1
+    lcd.setCursor(0, 1);
+    // print the number of seconds since reset:
+    lcd.print(millis()/1000);
+    delay(100);
 }
