@@ -1,7 +1,7 @@
 # PowerCube
 an arduino remake of the power cube 
 
-** Inleiding
+## Inleiding
 
 Voor het vak Opkomende Technologieën is een boksmachine gemaakt die de snelheid en de kracht van een vuistslag meet. Het project gebruikt sensoren en een Arduino om te meten en vervolgens de gegevens te tonen.
 
