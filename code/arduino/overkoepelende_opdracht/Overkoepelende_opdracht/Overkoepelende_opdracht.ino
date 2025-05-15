@@ -54,9 +54,9 @@ void loop() {
       
       lcd.clear();
       lcd.setCursor(0, 0);
-      lcd.print("Tijd=");
-      lcd.print(intervalTijd);
-      lcd.print("ms");
+      lcd.print("Snelheid=");
+      lcd.print((1/intervalTijd)*360);
+      lcd.print("km/u");
 
       lcd.setCursor(0, 1);
       lcd.print("kracht=");
