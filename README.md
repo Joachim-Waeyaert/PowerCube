@@ -30,7 +30,9 @@ Het doel van het project is het bouwen van een boksmachine die twee zaken meet:
 
 -Breadboard en bedrading
 
-![schema bedrading](Images/bedradingsschema.jpeg)
+<p align="center">
+  <img src="Images/bedradingsschema.jpeg" height="550px">
+</p>
 
 ## Werking
 
@@ -44,8 +46,11 @@ Achter het stootkussen zit, naast de drukknop om de snelheid te meten, ook het p
 Op een LCD-scherm worden de resultaten getoond. Hierop staan de snelheid (in km/u) en de kracht (als numerieke waarde). Zo is het mogelijk om elke slag direct te beoordelen. Wanneer de machine terug gereed is, luid er een buzzer die duidelijk maakt wanneer er nterug geslaan mag worden.
 
 ## Resultaat
-![afbeelding vooraanzicht opstelling](Images/VA_volledig.jpg)
-![afbeelding volledige opstelling](Images/Vol_opstellilng_gemonteerd.jpg)
+
+<p align="center">
+  <img src="Images/VA_volledig.jpg" height="500px">
+  <img src="Images/Vol_opstellilng_gemonteerd.jpg" height="500px">
+</p>
 
 ## Mogelijke verbeteringen
 - betere impactmeting met behulp van een druksensor in plaats van een piezo element
