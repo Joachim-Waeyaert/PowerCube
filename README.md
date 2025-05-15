@@ -65,7 +65,7 @@ In volgorde gebeurd er dan:
 </p>
 
 <p align="center">
-  <img src="Images/Bedrading in prototype.jpeg" height="500px">
+  <img src="Images/Bedrading in prototype.jpg" height="500px">
   <img src="Images/foto_arduinoopstelling.jpeg" height="500px">
 </p>
 
