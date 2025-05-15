@@ -64,6 +64,11 @@ In volgorde gebeurd er dan:
   <img src="Images/Vol_opstellilng_gemonteerd.jpg" height="500px">
 </p>
 
+<p align="center">
+  <img src="Images/Bedrading in prototype.jpeg" height="500px">
+  <img src="Images/foto_arduinoopstelling.jpeg" height="500px">
+</p>
+
 ## Mogelijke verbeteringen
 - Betere impactmeting met behulp van een druksensor in plaats van een piezo element
 - Robuustere en duurzamere bouw van het prototype ivm het stootkussen
