@@ -2,6 +2,8 @@
  
 Dit project is gebaseerd op PowerKube, maar staat volledig los van PowerKube.
 
+PowerKube is een commerciële boksmachine die krachtmetingen doet bij slagen. De producten van PowerKube zijn eerder duur, daarom werd voor dit project gekozen om een soortgelijk systeem low-budget na te bouwen met Arduino.
+
 ## Inleiding
 
 Voor het vak *Opkomende Technologieën* is een boksmachine gemaakt die de **snelheid** en de **kracht** van een vuistslag meet. Het project maakt gebruik van sensoren en een Arduino om gegevens te verzamelen en weer te geven.
@@ -47,6 +49,13 @@ Achter het stootkussen zit, naast de drukknop om de snelheid te meten, ook het p
 
 ### Scorebord
 Op een LCD-scherm worden de resultaten getoond. Hierop staan de snelheid (in km/u) en de kracht (als numerieke waarde). Zo is het mogelijk om elke slag direct te beoordelen. Wanneer de machine terug gereed is, luid er een buzzer die duidelijk maakt wanneer er nterug geslaan mag worden.
+
+In volgorde gebeurd er dan:
+1) Buzzer maakt een piepgeluid => klaar om te slaan
+2) Vuist passeert de PIR-sensor => timer start
+3) Vuist drukt het stootkussen in => ptototype concentreerd de kracht naar één punt.
+4) Piëzo en drukknop worden ingedrukt => Snelheid en kracht gemeten
+5) Alles wordt weergegeven op het schermpje.
 
 ## Resultaat
 
