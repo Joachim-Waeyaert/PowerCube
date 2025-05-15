@@ -30,6 +30,7 @@ Het doel van het project is het bouwen van een boksmachine die twee zaken meet:
 
 -Breadboard en bedrading
 
+
 Hironder een schematische voorstelling van de bedrading voor dit project.
 
 <p align="center">
