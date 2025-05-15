@@ -16,19 +16,19 @@ Het doel van het project is het bouwen van een boksmachine die twee zaken meet:
 
 ## Gebruikte materialen
 
--Arduino Uno
+- Arduino Uno
 
--Infraroodsensor (voor snelheidsmeting)
+- Infraroodsensor (voor snelheidsmeting)
 
--Drukknop (voor snelheidsmeting)
+- Drukknop (voor snelheidsmeting)
 
--Piezosensor (voor krachtmeting)
+- Piezosensor (voor krachtmeting)
 
--LCD-scherm (voor scorebord)
+- LCD-scherm (voor scorebord)
 
--Stootkussen
+- Stootkussen
 
--Breadboard en bedrading
+- Breadboard en bedrading
 
 
 Hironder een schematische voorstelling van de bedrading voor dit project.
