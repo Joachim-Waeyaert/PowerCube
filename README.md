@@ -30,7 +30,7 @@ Het doel van het project is het bouwen van een boksmachine die twee zaken meet:
 
 -Breadboard en bedrading
 
-`schema bedrading?`
+![schema bedrading](images/bedradingsschema)
 
 ## Werking
 
@@ -41,13 +41,13 @@ De IR-sensor wordt gericht met behulp van een paperen kokervorm. Zo ziet de sens
 Achter het stootkussen zit, naast de drukknop om de snelheid te meten, ook het piezo element. Dit fungeert als sensor en geeft een spanningssignaal wanneer hij wordt geraakt. Hoe harder de stoot, hoe hoger het signaal. De Arduino leest deze waarde uit en zet het zo om in een getal dat iets zegt over de kracht van de slag.
 
 ### Scorebord
-Op een LCD-scherm worden de resultaten getoond. Hierop staan de snelheid (in milliseconden) en de kracht (als numerieke waarde). Zo is het mogelijk om elke slag direct te beoordelen. Wanneer de machine terug gereed is, luid er een buzzer die duidelijk maakt wanneer er nterug geslaan mag worden.
+Op een LCD-scherm worden de resultaten getoond. Hierop staan de snelheid (in km/u) en de kracht (als numerieke waarde). Zo is het mogelijk om elke slag direct te beoordelen. Wanneer de machine terug gereed is, luid er een buzzer die duidelijk maakt wanneer er nterug geslaan mag worden.
 
 ## Resultaat
-
-
+![afbeelding vooraanzicht opstelling](images/VA_volledig)
+![afbeelding volledige opstelling](images/Vol_opstellilng_gemonteerd)
 
 ## Mogelijke verbeteringen
+- betere impactmeting met behulp van een druksensor in plaats van een piezo element
+- robuustere en duurzamere bouw van het prototype ivm het stootkussen
 
-
-## Besluit
