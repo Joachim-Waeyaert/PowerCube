@@ -73,4 +73,6 @@ In volgorde gebeurd er dan:
 - Betere impactmeting met behulp van een druksensor in plaats van een piezo element
 - Robuustere en duurzamere bouw van het prototype ivm het stootkussen
 - De functie van de drukknop bij het gebruik van de druksensor voegen
+- Optellende krachtweergave gelijkaardig aan een boksmachine op de kermis
+- Een signaal met leds dat weergeeft hoe hard er geslaan is
 
